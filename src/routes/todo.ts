@@ -6,7 +6,7 @@ router.get('/api/todo', [], (req: Request, res: Response) => {
     return res.send('the todo')
 })
 
-router.post('/api/todo', (req: Request,res: Response) => {
+router.post('/api/todo', async (req: Request ,res: Response) => {
     return res.send('new todo created')
 })
 

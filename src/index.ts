@@ -1,6 +1,6 @@
 import express from 'express';
 import { json } from 'body-parser';
-import { todoRouter } from '../todo';
+import { todoRouter } from './routes/todo';
 
 const app = express()
 app.use(json())
